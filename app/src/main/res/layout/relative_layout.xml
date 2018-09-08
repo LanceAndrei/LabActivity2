@@ -33,22 +33,24 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginBottom="87dp"
-        android:text="Distance from UST:" />
+        android:text="Distance from UST:"
+        android:layout_alignLeft="@+id/textView2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/backMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginBottom="11dp"
-        android:text="BACK" />
+        android:text="BACK"
+        android:layout_alignLeft="@+id/textView2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button"
+        android:layout_alignBottom="@+id/backMenu"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="14dp"
         android:text="NEXT" />
@@ -60,5 +62,5 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="51dp"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="?android:attr/textSelectHandle" />
 </RelativeLayout>
